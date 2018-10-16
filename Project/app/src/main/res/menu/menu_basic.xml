@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Quick Access">
+        <menu>
+            <item
+                android:id="@+id/action_main"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Home Page" />
+
+            <item
+                android:id="@+id/action_semesterlist"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="View Semesters" />
+        </menu>
+    </item>
+
+    <item
+        android:title="Debug Functions"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/debug_make_me_disappear"
+                android:icon="@android:drawable/ic_dialog_alert"
+                android:title="Make Me Disappear" />
+
+            <item
+                android:id="@+id/debug_add_semester"
+                android:icon="@android:drawable/ic_dialog_alert"
+                android:title="Add Semester" />
+            <item
+                android:id="@+id/debug_add_class"
+                android:icon="@android:drawable/ic_dialog_alert"
+                android:title="Add Class" />
+            <item
+                android:id="@+id/debug_add_assignment"
+                android:icon="@android:drawable/ic_dialog_alert"
+                android:title="Add Assignment" />
+            <item
+                android:id="@+id/action_classinfo"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Class Info" />
+            <item
+                android:id="@+id/action_editclass"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Edit Class" />
+            <item
+                android:id="@+id/action_addclass"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Add Class" />
+            <item
+                android:id="@+id/action_addtask"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Add Task" />
+            <item
+                android:id="@+id/action_addgrade"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Add Grade" />
+            <item
+                android:id="@+id/action_addsemester"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Add Semester" />
+
+            <item
+                android:id="@+id/action_classlist"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="Classes" />
+
+            <item
+                android:id="@+id/action_tasklist"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="Task List" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Settings" />
+    <item
+        android:id="@+id/action_about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="About" />
+
+</menu>
